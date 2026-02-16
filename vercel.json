@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "build"
@@ -24,5 +24,6 @@
   "env": {
     "REACT_APP_API_URL": "https://skillbridge-backend-dk2k.onrender.com"
   },
-  "regions": ["iad1"]
+  "regions": ["iad1"],
+  "installCommand": "npm install --legacy-peer-deps"
 }
