@@ -1,0 +1,85 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Package manager lock files (uncomment if you don't want to commit lock files)
+# yarn.lock
+# pnpm-lock.yaml
+# package-lock.json can be kept if needed
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# Cache files
+.cache/
+.parcel-cache/
+.eslintcache
+.sass-cache/
+.npm/
+.yarn-integrity
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Misc
+*.pem
+*.key
+*.sig
+*.orig
+*_backup
+*_backup.*
+
+# React specific
+.react-load/
+.next/
+.nuxt/
+.output/
+
+# Vercel/Netlify deployment cache
+.vercel/
+.netlify/
+
+# TypeScript (if used)
+*.tsbuildinfo
+
+# Storybook (if used)
+storybook-static/
+
+# Cypress (if used)
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Jest (if used)
+jest/
