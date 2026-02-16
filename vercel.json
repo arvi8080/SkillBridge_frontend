@@ -22,7 +22,7 @@
     }
   ],
   "env": {
-    "REACT_APP_API_URL": "@backend-url"
+    "REACT_APP_API_URL": "https://skillbridge-backend-dk2k.onrender.com"
   },
   "regions": ["iad1"]
 }
