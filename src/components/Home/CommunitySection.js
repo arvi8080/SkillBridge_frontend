@@ -6,7 +6,6 @@ import toast from 'react-hot-toast';
 
 const CommunitySection = () => {
   const [opportunities, setOpportunities] = useState([]);
-  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetchOpportunities();
@@ -19,8 +18,6 @@ const CommunitySection = () => {
     } catch (error) {
       console.error('Error fetching opportunities:', error);
       toast.error('Failed to load community opportunities');
-    } finally {
-      setLoading(false);
     }
   };
 
