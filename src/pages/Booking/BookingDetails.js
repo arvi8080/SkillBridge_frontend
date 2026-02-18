@@ -56,7 +56,7 @@ const BookingDetails = () => {
         socket.off('tracking-started');
       };
     }
-  }, [socket, booking]);
+  }, [socket, booking, fetchBookingDetails, fetchTrackingHistory]);
 
   const fetchBookingDetails = async () => {
     try {

@@ -49,7 +49,7 @@ const Profile = () => {
   }, [user]);
 
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
+    const { name, value, checked } = e.target;
     if (name.startsWith('address.')) {
       const key = name.split('.')[1];
       setFormData((prev) => ({
